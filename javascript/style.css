@@ -1,0 +1,79 @@
+:root {
+    --color-1: #0a0a0a;
+    --color-2: #ffcc40;
+    --color-3: #ffd35c;
+    --color-4: #ffe9ab;
+    --color-5: #fff6dc;
+    --color-text: #443123;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Momo Trust Display", sans-serif;
+    background-color: var(--color-1);
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-2);
+    width: 800px;
+    height: 500px;
+    gap: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.342);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.20);
+}
+
+.botoes_exercicios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes_exercicios button {
+    font-family: "Momo Trust Display", sans-serif;
+    width: 153px;
+    height: 53px;
+    padding: 10px;
+    background-color: var(--color-3);
+    border: 2px solid var(--color-1);
+    color: var(--color-text);
+    border: 2px solid rgba(0, 0, 0, 0.404);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.20);
+}
+
+img {
+    width: 55px;
+    margin: 10px;
+}
+
+.back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}

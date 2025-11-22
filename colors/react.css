@@ -1,0 +1,26 @@
+:root {
+    --color-1: #0a0a0a;
+    --color-2: #141414;
+    --color-3: #292929;
+    --color-4: #242424;
+    --color-text: #0cff55;
+
+    --color-5: #f8d053;
+    --color-6: #2596be;
+    --color-7: #ae40f5;
+    --color-text2: white;
+}
+
+.base_botoes {
+    background-color: var(--color-3);
+    color: var(--color-5);
+}
+
+.conteudo_principal {
+    background: linear-gradient(to bottom right, var(--color-6), var(--color-7));
+}
+
+.botoes_exercicios a {
+    background-color: var(--color-6);
+    color: var(--color-text2);
+}

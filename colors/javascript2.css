@@ -1,0 +1,34 @@
+:root {
+    --color-1: #0a0a0a;
+    --color-2: #141414;
+    --color-3: #292929;
+    --color-4: #242424;
+    --color-text: #0cff55;
+
+    --color-5: #f16524;
+    --color-6: #369cd6;
+    --color-7: #ffcc40;
+    --color-text2: #ffffff;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    gap: 20px;
+
+}
+
+.base_botoes {
+    background-color: var(--color-3);
+    color: var(--color-text2);
+}
+
+.conteudo_principal {
+    background: linear-gradient(to bottom right, var(--color-5), var(--color-1), var(--color-2), var(--color-1), var(--color-2), var(--color-1), var(--color-6));
+}
+
+.botoes_exercicios a {
+    background-color: var(--color-7);
+    color: var(--color-1);
+}
